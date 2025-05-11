@@ -1,3 +1,6 @@
+# Save the final code of index.html to a file and provide the path for downloading.
+
+html_code = """
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -121,3 +124,11 @@
   </footer>
 </body>
 </html>
+"""
+
+# Saving the code to a file
+file_path = "/mnt/data/index_updated.html"
+with open(file_path, "w") as file:
+    file.write(html_code)
+
+file_path  # return the file path for the user to download
