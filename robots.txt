@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://faresdz06.github.io/bejaia/sitemap.xml
